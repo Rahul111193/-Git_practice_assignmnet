@@ -1,0 +1,12 @@
+      
+      let str="naman"
+      let bag="";
+      for (let i=0; i<=str.length-1; i--){
+          bag += str[i];
+          
+      }
+       if (bag==str){
+           console.log("String is palindrome");
+       }else {
+           console.log("String is not a palindrome");
+       }

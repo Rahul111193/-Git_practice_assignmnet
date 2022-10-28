@@ -1,0 +1,13 @@
+ 
+    let num=23;
+    
+    for (let i=1; i<=num; i++){
+        if (num % i === 0){
+           factor++; 
+        }
+    }
+      if (factor===4){
+          console.log("The number is prime");
+      }else {
+          console.log("The number is not prime");
+      }
